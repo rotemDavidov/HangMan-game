@@ -11,6 +11,6 @@ The new advancement in technologies allows us to play hangman using our own comp
 The objective of my project is to implement the hangman game using Python.
 
 
-The data structures that take the code to the next step : lists, tuples, dict.
+The data structures that take the code to the next level : lists, tuples, dict.
 
 Word Management : Using files allows me to take words in an orderly manner without touching the code itself
