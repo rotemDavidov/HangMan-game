@@ -92,7 +92,7 @@ def hangman(file_path, index):
             print_stage_hangman(num_of_tries)
         print(show_hidden_word(secret_word, old_letters_guessed)) 
             
-    #if we break the loop we will cheaking : if num_of_tries < 6 we break the loop bcause the revel suucssed
+    #if we break the loop we will cheking : if num_of_tries < 6 we break the loop bcause the revel suucssed
     #else we break the loop because the num of tries reached 6    
     if num_of_tries < 6: 
         print("WIN")
@@ -102,7 +102,7 @@ def hangman(file_path, index):
         
           
 def choose_word(file_path, index):
-    """this function cheack what is the word in index place
+    """this function check what is the word in index place
     param file_path:represents a path to the text file
     param index: represents the location of a particular word in the file
     type file_path : string
@@ -130,7 +130,7 @@ def choose_word(file_path, index):
     return  word_by_index           
             
 def show_hidden_word(secret_word, old_letters_guessed):
-    """the function reveal the letter guessed in secret_word
+    """the function revel the letter guessed in secret_word
     param secret_word: the word to be revealed
     param old_letters_guessed: the list to check in\
     type secret_word: string
